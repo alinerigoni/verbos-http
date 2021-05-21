@@ -1,0 +1,8 @@
+{
+    "emmet.triggerExpansionOnTab": true,
+    "editor.wordWrap": "on",
+    "emmet.showSuggestionsAsSnippets": true,
+    "emmet.syntaxProfiles": {
+    
+    },
+}
