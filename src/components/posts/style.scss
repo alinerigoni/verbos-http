@@ -1,0 +1,27 @@
+@import '../../assets/scss/variables';
+
+.posts {
+    .post {
+        padding: 20px;
+        border-radius: 4px;
+        border: 1px solid $border;
+        background-color: $bg-post;
+        margin-bottom: 20px;
+
+        .title {
+            font-family: $font-title;
+            color: $color-title;
+            font-size: 22px;
+            line-height: 1.4em;
+            margin-bottom: 20px;
+        }
+
+        .text {
+            font-family: $font-text;
+            color: $color-text;
+            font-size: 16px;
+            line-height: 1.3em;
+        }
+    }
+
+}
