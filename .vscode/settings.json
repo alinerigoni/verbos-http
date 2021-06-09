@@ -1,9 +1,11 @@
 {
     "emmet.triggerExpansionOnTab": true,
     "editor.wordWrap": "on",
+    "editor.tab": 4,
+    "editor.spaces": 2,
     "emmet.showSuggestionsAsSnippets": true,
     "emmet.syntaxProfiles": {
-    
+
     },
     "editor.fontSize": 13,
 }

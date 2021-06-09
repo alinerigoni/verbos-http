@@ -1,17 +1,61 @@
-$font-text: 'Open Sans', sans-serif;
-$font-title: 'Poppins', sans-serif;
+$font-text: "Open Sans", sans-serif;
+$font-title: "Poppins", sans-serif;
 
-$color-title: #116b8a;
-$color-text: #585858;
-$border: #ccc;
-$bg-post: #f3f7fc;
+/* Color Theme LOFT REDUX LMC */
+$loft1: #353D40;
+$loft2: #D9D9D9;
+$loft3: #A1A5A6;
+$loft4: #F2B138;
+$loft5: #003F63;
 
+$primary: $loft5;
+$secondary: $loft4;
+$white: $loft2;
+$black: $loft1;
+$gray: $loft3;
+
+// text
+$text__primary: $primary;
+$text__secondary: $secondary;
+$text__white: $white;
+$text__black: $black;
+$text__gray: $gray;
+
+// border
+$border__primary: $primary;
+$border__secondary: $secondary;
+$border__white: $white;
+$border__black: $black;
+$border__gray: $gray;
+
+// background
+$bg__primary: $primary;
+$bg__secondary: $secondary;
+$bg__white: $white;
+$bg__black: $black;
+$bg__gray: $gray;
+
+// shadow
+$shadow__primary: $primary;
+$shadow__secondary: $secondary;
+$shadow__white: $white;
+$shadow__black: $black;
+$shadow__gray: $gray;
+
+// text colors
+$textColors: (
+    primary: ($primary),
+    secondary: ($secondary),
+    white: ($white),
+    black: ($black),
+    gray: ($gray),
+);
 
 // ----------------------------------------
 // Media Queries for Standard Devices
 // ----------------------------------------
-$xs: 'only screen and (max-width: 575px)';
-$sm: 'only screen and (min-width: 576px)';
-$md: 'only screen and (min-width: 768px)';
-$lg: 'only screen and (min-width: 992px)';
-$xl: 'only screen and (min-width: 1200px)';
+$xs: "only screen and (max-width: 575px)";
+$sm: "only screen and (min-width: 576px)";
+$md: "only screen and (min-width: 768px)";
+$lg: "only screen and (min-width: 992px)";
+$xl: "only screen and (min-width: 1200px)";

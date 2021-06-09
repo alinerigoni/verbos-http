@@ -50,13 +50,15 @@ const Home = () => {
             */}
 
             <Container>
-                <H1 text="titulo h1" />
-                <H2 text="titulo h2" />
-                <H3 text="titulo h3" />
-                <H4 text="titulo h4" />
-                <H5 text="titulo h5" />
-                <H6 text="titulo h6" />
-                <Paragraph text="Paragrafo de texto ara teste de componentes de elementos" />
+                <div className="wrapper-typography">
+                    <H1 text="titulo h1" color="primary" />
+                    <H2 text="titulo h2" color="secondary" />
+                    <H3 text="titulo h3" color="white" />
+                    <H4 text="titulo h4" color="black" />
+                    <H5 text="titulo h5" color="black-light" />
+                    <H6 text="titulo h6" color="gray" />
+                    <Paragraph text="Paragrafo de texto ara teste de componentes de elementos" color="secondary" />
+                </div>
 
                 <div className="posts">
                     <Row>
@@ -64,9 +66,9 @@ const Home = () => {
                             posts.map((post, key) => {
                                 return (
                                     <Col xs={4} key={key}>
-                                        <div className="post" >
-                                            <p className="post__title">{post.title}</p>
-                                            <p className="post__text">{post.body}</p>
+                                        <div className="post">
+                                            <H1 text={post.title} color="primary" />
+                                            <Paragraph text={post.body} color="primary" />
                                             <button className="btn btn--delete">Deletar</button>
                                         </div>
                                     </Col>
